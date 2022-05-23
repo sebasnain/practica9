@@ -1,0 +1,187 @@
+.contenedor {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .miSvg {
+   height: 50px;
+   width: 50px;
+} 
+.miSvg:hover{
+    animation: rotacion 3s linear 0s infinite;
+
+}
+@keyframes rotacion {
+    for{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+/*animacion del cuadrado*/
+ .contenedor2 {
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: brown;
+    width: 90px;
+    height: 90px;
+}
+
+.contenedor2:hover{
+        animation: caja 3s ;}
+
+
+@keyframes caja {
+    0% {transform: translateX(0px);}
+    20%{ 
+        width: 100px;
+        height: 100px;}
+    50% {
+        width: 120px;
+        height: 120px;}
+    100% {
+        opacity: 0.30;
+        transform: translateX(900px);
+        width: 5px;
+        height: 5px;}
+}
+  
+
+/*extra*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: sans-serif;
+    color: grey;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    align-items: center;
+
+  }
+  
+  .div1 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #3369e8;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audio 2s ease 0s infinite ;
+     
+    }
+
+  
+  @keyframes audio {
+      0% { height: 105px;}
+      25%{ height: 110px;}   
+      50% { height: 105px;}
+      75%{ height: 95px;}  
+      100%{ height: 85px;} 
+  }
+  .div2 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #d50f25;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audio2 2s ease 0s infinite ;
+      
+    }
+  
+  @keyframes audio2 {
+      0% { height: 95px;}
+      25%{ height: 100px;}   
+      50% { height: 105px;}
+      75%{ height: 110px;}  
+      100%{ height: 105px;} 
+  }
+  .div3 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #eeb211;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audi3 2s ease 0s infinite ;
+      
+    }
+  
+  @keyframes audi3 {
+      0% { height: 90px;}
+      25%{ height: 95px;}   
+      50% { height: 100px;}
+      75%{ height: 105px;}  
+      100%{ height: 110px;} 
+  }
+  .div4 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #3369e8;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audio4 2s ease 0s infinite ;
+    }
+  
+  @keyframes audio4 {
+      0% { height: 105px;}
+      25%{ height: 110px;}   
+      50% { height: 105px;}
+      75%{ height: 100px;}  
+      100%{ height: 95px;} 
+  }
+  .div5 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #009925;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audio5 2s ease 0s infinite ;
+    }
+  
+  @keyframes audio5 {
+      0% { height: 95px;}
+      25%{ height: 100px;}   
+      50% { height: 105px;}
+      75%{ height: 110px;}  
+      100%{ height: 105px;} 
+  }
+  .div6 {
+      width: 10px;
+      height: 100px;
+      border-radius: 40px;
+      background: #d50f25;
+      display: inline-block;
+      margin-left: 10px;
+      animation: audio6 2s ease 0s infinite ;
+    }
+  
+  @keyframes audio6 {
+      0% { height: 95px;}
+      25%{ height: 100px;}   
+      50% { height: 105px;}
+      75%{ height: 110px;}  
+      100%{ height: 105px;} 
+  }
+  
+
+
